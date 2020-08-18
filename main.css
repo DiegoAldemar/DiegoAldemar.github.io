@@ -1,0 +1,124 @@
+/* Desktop - 1 */
+body{
+    
+    position: relative;
+    width: 1000px;
+    height: 1024px;
+/* margin: 0px auto; */
+background: #f0f2f5;
+}
+
+
+
+
+.frame9{
+    position: absolute;
+width: 557.01px;
+height: 59px;
+left: 409.99px;
+top: 116px;
+}
+    
+/* Diego Aldemar Niño Ruiz */
+#titulo1{
+    position: absolute;
+width: 700px;
+height: 48px;
+left: 30.01px;
+top: -30px;
+    
+    font-family: SeoulHangang CB;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 52px;
+
+    color: #000000;
+    }
+
+/* Line 1 */
+#linea1{
+    
+    position: absolute;
+width: 610px;
+height: 0px;
+left: 0px;
+top: 59px;
+
+border: 5px solid rgba(0, 0, 0, 0.29);
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.frame10{
+    position: absolute;
+width: 410px;
+height: 41.5px;
+left: 427px;
+top: 181px;
+}
+
+#titulo2{
+    position: absolute;
+width: 386px;
+height: 29px;
+left: 24px;
+top: 0px;
+
+font-family: SeoulHangang CB;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 36px;
+
+color: #000000;
+}
+
+#linea2{
+    position: absolute;
+    width: 420px;
+    height: 0px;
+    left: -30px;
+    top: 65px;
+
+border: 5px solid rgba(0, 0, 0, 0.29);
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.frame8{
+    position: absolute;
+width: 327px;
+height: 1058px;
+left: 87px;
+top: 0px;
+}
+
+.rectangulo1{
+    position: absolute;
+width: 327px;
+height: 1058px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25), -9px -2px 4px rgba(0, 0, 0, 0.25), 5px -2px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.fotocv{
+    position: absolute;
+    width: 371.71px;
+    height: 381.37px;
+    left: 55px;
+    top: 0px;
+
+background-image: url('./images/Frame12.png');
+/* filter: drop-shadow(0px -8px 8px rgba(0, 0, 0, 0.25)), drop-shadow(-8px 4px 5px rgba(0, 0, 0, 0.25));
+border-radius: 30px;
+transform: rotate(-45deg); */
+
+}
+
+
+
+
