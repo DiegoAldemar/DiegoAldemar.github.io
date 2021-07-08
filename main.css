@@ -133,3 +133,125 @@
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.Bandera{
+    position: absolute;
+    width: 32px;
+    height: 24px;
+    left: 678px;
+    top: 122px;
+
+    border-radius: 4px;
+}
+
+.BanderaGrupo{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.VectorRojo{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 75%;
+    bottom: 0%;
+
+    background: #DA0010;
+}
+
+.VectorAzul{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 50%;
+    bottom: 0%;
+
+    background: #00148E;
+}
+
+.VectorAmarillo{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFE800;
+}
+
+.NavBar{
+    position: absolute;
+    width: 1116px;
+    height: 90px;
+    left: calc(50% - 1116px/2);
+    top: calc(45% - 90px/2 - 255px);
+}
+
+#DA{
+    position: absolute;
+    width: 76px;
+    height: 70px;
+    left: calc(50% - 76px/2 - 520px);
+    top: calc(50% - 70px/2 - 6px);
+
+    font-family: Salsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#Proyectos{
+    position: absolute;
+    width: 123px;
+    height: 29px;
+    left: calc(50% - 123px/2 + 171.5px);
+    top: calc(50% - 29px/2 + 3.5px);
+
+    font-family: Salsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+#Estudios{
+    position: absolute;
+    width: 92.4px;
+    height: 29px;
+    left: calc(50% - 92.4px/2 + 336.75px);
+    top: calc(50% - 29px/2 + 3.5px);
+
+    font-family: Salsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+#SobreMi{
+    position: absolute;
+    width: 98.56px;
+    height: 29px;
+    left: calc(50% - 98.56px/2 + 489.72px);
+    top: calc(50% - 29px/2 + 3.5px);
+
+    font-family: Salsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
