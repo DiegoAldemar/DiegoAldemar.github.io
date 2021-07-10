@@ -7,7 +7,7 @@
     overflow-x: hidden;
 }
 
-.FondoGradiente{
+.Background__Gradient{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -15,183 +15,111 @@
     background: linear-gradient(90deg, #30CFD0 0%, #330867 100%);
 }
 
-.Elipse1{
+.Background__Circles{
     position: absolute;
-    width: 690px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 1;
+}
+
+.Background__Circles > div{
+    width: 300px;
+    height: 300px;
+}
+
+.Background__Circles-Circle1{
+    /* width: 690px;
     height: 479px;
     left: -219px;
-    top: -250px;
+    top: -250px; */
+    z-index: 1;
 
     background: radial-gradient(50% 50% at 50% 50%, rgba(4, 237, 97, 0.7) 10.98%, rgba(255, 255, 255, 0) 100%);
 }
 
-.Elipse2{
-    position: absolute;
-    width: 554px;
+.Background__Circles-Circle2{
+    /* width: 554px;
     height: 378px;
     left: -187px;
-    top: 345px;
+    top: 345px; */
+    z-index: 1;
 
     background: radial-gradient(50% 50% at 50% 50%, rgba(4, 237, 167, 0.7) 0%, rgba(15, 0, 72, 0) 100%);
 }
 
-.Elipse3{
-    position: absolute;
-    width: 634px;
+.Background__Circles-Circle3{
+    /* width: 634px;
     height: 506px;
     left: 837px;
-    top: 300px;
+    top: 300px; */
+    z-index: 1;
 
     background: radial-gradient(50% 50% at 50% 50%, rgba(237, 4, 172, 0.371) 0%, rgba(15, 0, 72, 0) 100%);
 }
 
-.Elipse4{
-    position: absolute;
-    width: 772px;
+.Background__Circles-Circle4{
+    /* width: 772px;
     height: 596px;
     left: 786px;
-    top: 0px;
+    top: 0px; */
+    z-index: 1;
 
     background: radial-gradient(50% 50% at 50% 50%, rgba(4, 237, 167, 0.7) 0%, rgba(15, 0, 72, 0) 100%);
 }
 
-.Elipse5{
-    position: absolute;
-    width: 634px;
+.Background__Circles-Circle5{
+    /* width: 634px;
     height: 506px;
     left: -262px;
-    top: 28px;
+    top: 28px; */
+    z-index: 1;
 
     background: radial-gradient(50% 50% at 50% 50%, rgba(237, 4, 172, 0.567) 0%, rgba(157, 132, 254, 0) 100%);
 }
 
-.EfectoBlur{
+.Background__BlurEffect{
     position: absolute;
     width: 100%;
     height: 100%;
     left: 0px;
     top: 0px;
+    z-index: 2;
 
     background: rgba(28, 28, 28, 0.55);
     mix-blend-mode: normal;
     backdrop-filter: blur(80px);
 }
 
-.FotoTitulo1{
-    position: absolute;
-    width: 80%;
-    height: 60%;
-    left: 77px;
-    top: 118px;
-}
-
-.Foto1{
-    position: absolute;
-    width: 320px;
-    height: 320px;
-    left: 11px;
-    top: 0px;
-
-  
-    /* filter: drop-shadow(0px -8px 8px rgba(0, 0, 0, 0.25)), drop-shadow(-3px 8px 5px rgba(0, 0, 0, 0.25));
-    border-radius: 30px;
-    transform: rotate(-45deg); */
-}
-
-.DiegoAldemar{
-    position: absolute;
-    width: 727px;
-    height: 85px;
-    left: 266px;
-    top: 24px;
-
-    font-family: Salsa;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 64px;
-    line-height: 78px;
-
-    color: #FFFFFF;
-
-    text-shadow: -4px -5px 12px rgba(0, 0, 0, 0.5);
-}
-
-.Ingeniero{
-    position: absolute;
-    width: 326px;
-    height: 44px;
-    left: 328px;
-    top: 109px;
-
-    font-family: Salsa;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 44px;
-
-    color: #C1BEBE;
-
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.Bandera{
-    position: absolute;
-    width: 32px;
-    height: 24px;
-    left: 678px;
-    top: 122px;
-
-    border-radius: 4px;
-}
-
-.BanderaGrupo{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-}
-
-.VectorRojo{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 75%;
-    bottom: 0%;
-
-    background: #DA0010;
-}
-
-.VectorAzul{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 50%;
-    bottom: 0%;
-
-    background: #00148E;
-}
-
-.VectorAmarillo{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-
-    background: #FFE800;
-}
-
-.NavBar{
-    position: absolute;
-    width: 1116px;
+.Header__Navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    width: 90vw;
     height: 90px;
-    left: calc(50% - 1116px/2);
-    top: calc(45% - 90px/2 - 255px);
+    left: 5%;
+    right: 5%;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#DA{
-    position: absolute;
+a{
+    text-decoration: none;
+}
+
+.header__navbar-BoxFlex{
+    width: 429px;
+    height: 34px;
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+}
+
+.header__navbar-DA{
+    /* position: absolute; */
     width: 76px;
     height: 70px;
     left: calc(50% - 76px/2 - 520px);
@@ -208,10 +136,10 @@
     color: #FFFFFF;
 }
 
-#Proyectos{
-    position: absolute;
+.header__navbar-Projects{
+    /* position: absolute; */
     width: 123px;
-    height: 29px;
+    height: 34px;
     left: calc(50% - 123px/2 + 171.5px);
     top: calc(50% - 29px/2 + 3.5px);
 
@@ -220,14 +148,15 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
+    
 
     color: #FFFFFF;
 }
 
-#Estudios{
-    position: absolute;
+.header__navbar-Studies{
+    /* position: absolute; */
     width: 92.4px;
-    height: 29px;
+    height: 34px;
     left: calc(50% - 92.4px/2 + 336.75px);
     top: calc(50% - 29px/2 + 3.5px);
 
@@ -240,10 +169,10 @@
     color: #FFFFFF;
 }
 
-#SobreMi{
-    position: absolute;
+.header__navbar-AboutMe{
+    /* position: absolute; */
     width: 98.56px;
-    height: 29px;
+    height: 34px;
     left: calc(50% - 98.56px/2 + 489.72px);
     top: calc(50% - 29px/2 + 3.5px);
 
@@ -255,3 +184,234 @@
 
     color: #FFFFFF;
 }
+
+.main__content{
+    position: absolute;
+    width: 90vw;
+    height: 60%;
+    left: 5%;
+    right: 5%;
+    top: 75px;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main__content-Photo1{
+    /* position: absolute; */
+    width: 380px;
+    height: 380px;
+    left: 11px;
+    top: 0px;
+    flex-shrink: 1;
+}
+
+.content__FlexBox-Title1and2{
+    display: flex;
+    width: 727px;
+    height: 129px;
+    flex-direction: column;
+    
+}
+
+.main__content-DiegoAldemar{
+    /* position: absolute; */
+    width: 727px;
+    height: 85px;
+    left: 301px;
+    top: 34px;
+    
+
+    font-family: Salsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+
+    color: #FFFFFF;
+
+    text-shadow: -4px -5px 12px rgba(0, 0, 0, 0.5);
+}
+
+.content__FlexBox-IngineerFlag{
+    display: flex;
+    width: 382px;
+    height: 44px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main__content-Ingineer{
+    /* position: absolute; */
+    width: 326px;
+    height: 44px;
+    left: 387px;
+    top: 109px;
+
+    font-family: Salsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #C1BEBE;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main__content-FlagColombia{
+    position: absolute;
+    width: 32px;
+    height: 24px;
+    left: 678px;
+    top: 122px;
+    z-index: 3;
+
+    border-radius: 4px;
+}
+
+.main__ContainerFlagColombia{
+    /* position: absolute; */
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.main__ContainerFlagColombia-VectorRed{
+    /* position: absolute; */
+    left: 0%;
+    right: 0%;
+    top: 75%;
+    bottom: 0%;
+
+    background: #DA0010;
+}
+
+.main__ContainerFlagColombia-VectorBlue{
+    /* position: absolute; */
+    left: 0%;
+    right: 0%;
+    top: 50%;
+    bottom: 0%;
+
+    background: #00148E;
+}
+
+.main__ContainerFlagColombia-VectorYellow{
+    /* position: absolute; */
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFE800;
+}
+
+.main__content-figure1{
+    position: absolute;
+    width: 341px;
+    height: 341px;
+    left: 981px;
+    top: 269px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.main__ContainerSkills{
+    position: absolute;
+    width: 393.6px;
+    height: 216.6px;
+    left: 339px;
+    top: 336px;
+}
+
+.main__ContainerSkills-skills{
+    position: absolute;
+    width: 187px;
+    height: 44px;
+    left: 73px;
+    top: 0px;
+
+    font-family: Salsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #C1BEBE;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ContainerSkills__ContainerGit{
+    position: absolute;
+    width: 65.6px;
+    height: 65.6px;
+    left: 164px;
+    top: 57px;
+    
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.GrupoVector{
+    
+    width: 56px;
+    height: 56px;
+    left: 5px;
+    top: 5px;
+    
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.VectorGit{
+    
+    left: 7.62%;
+    right: 7.01%;
+    top: 7.62%;
+    bottom: 7.01%;
+}
+
+.FondoGit{
+    position: absolute;
+    width: 65.6px;
+    height: 65.6px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(54px);
+    
+
+    border-radius: 6px;
+}
+
+.Contacto{
+    position: fixed;
+    width: 262.03px;
+    height: 59px;
+    left: 34px;
+    top: 514px;
+}
+
+.Contacto-Email{
+    position: absolute;
+    width: 58.13px;
+    height: 58.13px;
+    left: 67.68px;
+    top: 0.87px;
+}
+
+.Contacto-Email-Fondo{
+    position: absolute;
+    width: 58.13px;
+    height: 58.13px;
+    left: 67.68px;
+    top: 0.87px;
+
+    background: linear-gradient(90deg, #84FAB0 0%, #8FD3F4 100%);
+} 
