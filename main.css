@@ -340,3 +340,21 @@ a{
     align-items: center;
     align-self: center;
 }
+
+.navigation__ContainerContacto{
+    position: fixed;
+    width: 262.03px;
+    height: 59px;
+    left: 5%;
+    bottom: 5%;
+    z-index: 3;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .navigation__ContainerContacto-IconWhatsaap{
+    position: absolute;
+    left: 0px;
+    top: 0.87px;
+} */
