@@ -196,7 +196,7 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .main__content-Photo1{
@@ -211,8 +211,9 @@ a{
 .content__FlexBox-Title1and2{
     display: flex;
     width: 727px;
-    height: 129px;
+    height: 250px;
     flex-direction: column;
+    
     
 }
 
@@ -236,7 +237,7 @@ a{
 }
 
 .content__FlexBox-IngineerFlag{
-    display: flex;
+    display: inline-flex;
     width: 382px;
     height: 44px;
     flex-direction: row;
@@ -245,7 +246,7 @@ a{
 
 .main__content-Ingineer{
     /* position: absolute; */
-    width: 326px;
+    width: 292px;
     height: 44px;
     left: 387px;
     top: 109px;
@@ -262,56 +263,13 @@ a{
 }
 
 .main__content-FlagColombia{
-    position: absolute;
     width: 32px;
     height: 24px;
-    left: 678px;
-    top: 122px;
-    z-index: 3;
-
-    border-radius: 4px;
+    
 }
 
-.main__ContainerFlagColombia{
+.content__ContainerSkillsAndFigure1-Figure1{
     /* position: absolute; */
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-}
-
-.main__ContainerFlagColombia-VectorRed{
-    /* position: absolute; */
-    left: 0%;
-    right: 0%;
-    top: 75%;
-    bottom: 0%;
-
-    background: #DA0010;
-}
-
-.main__ContainerFlagColombia-VectorBlue{
-    /* position: absolute; */
-    left: 0%;
-    right: 0%;
-    top: 50%;
-    bottom: 0%;
-
-    background: #00148E;
-}
-
-.main__ContainerFlagColombia-VectorYellow{
-    /* position: absolute; */
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-
-    background: #FFE800;
-}
-
-.main__content-figure1{
-    position: absolute;
     width: 341px;
     height: 341px;
     left: 981px;
@@ -320,20 +278,26 @@ a{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.main__ContainerSkills{
-    position: absolute;
+.content__ContainerTitleIconsSkills{
+    /* position: absolute; */
     width: 393.6px;
-    height: 216.6px;
-    left: 339px;
-    top: 336px;
+    height: 301.6px;
+    left: 441px;
+    top: 378px;
+    /* z-index: 3; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-.main__ContainerSkills-skills{
-    position: absolute;
+.content__ContainerSkills-skills{
+    /* position: absolute; */
     width: 187px;
     height: 44px;
     left: 73px;
     top: 0px;
+    /* z-index: 3; */
 
     font-family: Salsa;
     font-style: normal;
@@ -346,72 +310,33 @@ a{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.ContainerSkills__ContainerGit{
-    position: absolute;
-    width: 65.6px;
+.content__containerIconsSkills{
+    /* position: absolute; */
+    display: flex;
+    width: 393.6px;
+    height: 159.6px;
+    /* z-index: 3; */
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content__containerIconsSkills > img, div{
+    width: 70px;
     height: 65.6px;
-    left: 164px;
-    top: 57px;
-    
-
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.GrupoVector{
-    
-    width: 56px;
-    height: 56px;
-    left: 5px;
-    top: 5px;
-    
-
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.VectorGit{
-    
-    left: 7.62%;
-    right: 7.01%;
-    top: 7.62%;
-    bottom: 7.01%;
-}
-
-.FondoGit{
+.content__ContainerSkillsAndFigure1{
     position: absolute;
-    width: 65.6px;
-    height: 65.6px;
-    left: 0px;
-    top: 0px;
-
-    background: rgba(255, 255, 255, 0.13);
-    backdrop-filter: blur(54px);
-    
-
-    border-radius: 6px;
+    width: 62vw;
+    height: 341px;
+    right: 5%;
+    top: 40%;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
 }
-
-.Contacto{
-    position: fixed;
-    width: 262.03px;
-    height: 59px;
-    left: 34px;
-    top: 514px;
-}
-
-.Contacto-Email{
-    position: absolute;
-    width: 58.13px;
-    height: 58.13px;
-    left: 67.68px;
-    top: 0.87px;
-}
-
-.Contacto-Email-Fondo{
-    position: absolute;
-    width: 58.13px;
-    height: 58.13px;
-    left: 67.68px;
-    top: 0.87px;
-
-    background: linear-gradient(90deg, #84FAB0 0%, #8FD3F4 100%);
-} 
