@@ -265,7 +265,7 @@ a{
 .main__content-FlagColombia{
     width: 32px;
     height: 24px;
-    
+    border-radius: 4px;
 }
 
 .content__ContainerSkillsAndFigure1-Figure1{
@@ -351,6 +351,21 @@ a{
 
     display: flex;
     justify-content: space-between;
+}
+
+.BoxSkills{
+    /* position: absolute; */
+    width: 65.6px;
+    height: 65.6px;
+    /* overflow: hidden; */
+    display: flex;
+
+    
+background: rgba(255, 255, 255, 0.13);
+backdrop-filter: blur(54px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 6px;
 }
 
 /* .navigation__ContainerContacto-IconWhatsaap{
